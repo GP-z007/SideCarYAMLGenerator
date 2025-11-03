@@ -1,0 +1,10 @@
+sidecar-deployer-backend/
+│
+├── controllers/
+│   └── deploymentController.js
+├── routes/
+│   └── deploymentRoutes.js
+├── utils/
+│   └── yamlGenerator.js
+├── server.js
+├── package.json
