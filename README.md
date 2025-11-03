@@ -35,4 +35,4 @@ To use the API, send a `POST` request to the `/api/deploy/generate-yaml` endpoin
 
 a:\n  name: sidecar-pod\n  labels:\n    app: sidecar-app\nspec:\n  containers:\n    - name: my-app\n      image: nginx:latest\n      ports:\n        - containerPort: 80\n    - name: log-shipper\n      image: fluentd:latest\n      env:\n        - name: FLUENTD_CONF\n          value: fluent.conf\n"
 }
-```
+
